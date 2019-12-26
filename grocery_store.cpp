@@ -6,6 +6,10 @@
  *                                                                               *
  *********************************************************************************/
 
+ /*
+  * Grocery store management using object oreiented programming paradigms
+  */
+
 #include <iostream>
 #include <fstream>
 #include <termios.h>
