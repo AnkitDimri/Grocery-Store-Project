@@ -14,7 +14,9 @@
 #include <fstream>
 #include <termios.h>
 #include <unistd.h>
+/* Include clerk class */
 #include "clerk.h"
+/* Include customer class */
 #include "customer.h"
 
  void customer_acces ();
