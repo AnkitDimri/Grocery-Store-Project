@@ -13,7 +13,7 @@
 #ifndef _DATACLASS_H
 #define _DATACLASS_H
 
- // Class definition
+ /* Class definition */
  class items {
 
       char item_code [10];
@@ -25,13 +25,13 @@
 
       /* Getters */
 
-      // to get item Code
+      /* to get item Code */
       char* get_code () { return item_code; }
-      // to get item name
+      /* to get item name */
       char* get_name () { return item_name; }
-      // to get item price
+      /* to get item price */
       float get_price () { return item_price; }
-      // to get item quantity
+      /* to get item quantity */
       int get_quantity () { return item_quantity; }
 
       /* Setter */
