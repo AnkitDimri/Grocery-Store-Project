@@ -16,28 +16,28 @@
 
  using namespace std;
 
- // Class definition
+ /* Class definition */
  class customer : protected items {
 
  public:
 
      /* Getters */
 
-     // to get item Code
+     /* to get item Code */
      char* get_code () { return items::get_code (); }
-     // to get item name
+     /* to get item name */
      char* get_name () { return items::get_name (); }
-     // to get item price
+     /* to get item price */
      float get_price () { return items::get_price (); }
-     // to get item quantity
+     /* to get item quantity */
      int get_quantity () { return items::get_quantity (); }
 
      /* Setter */
 
-     // to set item quantity
+     /* to set item quantity */
      void set_quantity (int quantity) { items::set_quantity (quantity); }
 
-     // To display the object values
+     /* To display the object values */
      void display_catalog ();
 
  };
