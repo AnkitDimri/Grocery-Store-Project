@@ -62,6 +62,7 @@
      return 0;
  }
 
+ /* Customer function */
  void customer_acces () {
 
      int option;
@@ -319,7 +320,7 @@
 
  }
 
- // Clerk Function
+ /* Clerk Function */
  void clerk_acces () {
 
     const char *correct_password = "groupa";
