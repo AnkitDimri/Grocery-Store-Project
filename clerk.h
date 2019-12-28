@@ -22,23 +22,23 @@ public:
 
   /* Getters */
 
-  // To acess the item code
+  /* To acess the item code */
   char* get_code () { return items::get_code (); }
-  // To acess the item quantity
+  /* To acess the item quantity */
   float get_quantity () { return items::get_quantity (); }
 
   /* Setter */
 
-  // to set item Code
+  /* to set item Code */
   void set_code (char code [10]) { items::set_code (code); }
-  // to set item name
+  /* to set item name */
   void set_name (char name [20]) { items::set_name (name); }
-  // to set item price
+  /* to set item price */
   void set_price (float price) { items::set_price (price); }
-  // to set item quantity
+  /* to set item quantity */
   void set_quantity (int quantity) { items::set_quantity (quantity); }
 
-  // To display the items
+  /* To display the items */
   void display_item ();
 
 };
