@@ -36,13 +36,13 @@
 
       /* Setter */
 
-      // to set item Code
+      /* to set item Code */
       void set_code (char code [10]) { std::strcpy (item_code, code); }
-      // to set item name
+      /* to set item name */
       void set_name (char name [20]) { std::strcpy (item_name, name); }
-      // to set item price
+      /* to set item price */
       void set_price (float price) { item_price =  price; }
-      // to set item quantity
+      /* to set item quantity */
       void set_quantity (int quantity) { item_quantity =  quantity; }
 
  };
