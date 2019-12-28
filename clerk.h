@@ -15,7 +15,7 @@
 
 using namespace std;
 
-//Class definition
+/* Class definition */
 class clerk : protected items {
 
 public:
