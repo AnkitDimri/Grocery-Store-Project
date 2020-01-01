@@ -10,6 +10,7 @@
 #include <string>
 #include <cstring>
 #include <iostream>
+
 #ifndef _DATACLASS_H
 #define _DATACLASS_H
 
