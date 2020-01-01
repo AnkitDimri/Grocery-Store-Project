@@ -9,6 +9,7 @@
 #include <fstream>
 #include <cstring>
 #include <iomanip>
+
 #ifndef _CLERK_H
 #define _CLERK_H
 #include "dataClass.h"
