@@ -50,6 +50,6 @@
      std::cout << std::setw (20) << items::get_name () << "  ";
      std::cout << std::setw (10) << items::get_price ();
 
-}
+ }
 
 #endif
