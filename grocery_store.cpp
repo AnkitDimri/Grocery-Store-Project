@@ -564,6 +564,10 @@
 
  }
 
+ /*
+  * To get the password in terminal.
+  * The password is not visible on the terminal
+  */
  int getch() {
     int ch;
     struct termios t_old, t_new;
