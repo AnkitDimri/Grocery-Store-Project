@@ -567,6 +567,7 @@
  /*
   * To get the password in terminal.
   * The password is not visible on the terminal
+  * works on bash terminal
   */
  int getch() {
     int ch;
