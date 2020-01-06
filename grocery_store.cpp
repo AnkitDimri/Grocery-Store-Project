@@ -43,15 +43,16 @@
 
          switch (acc) {
 
-             case 1 : customer_acces ();
+             case 1 : customer_acces (); // call customer function
                       break;
 
-             case 2 : clerk_acces ();
+             case 2 : clerk_acces (); // call clerk function
                       break;
 
-             case 3 : exit (0);
+             case 3 : exit (0); // end process
 
              default : std::cout << "\n\t Wrong Choice!!" << '\n';
+                       /* Wait for interrupt */
                        cin.ignore ();
                        getchar ();
 
