@@ -30,6 +30,7 @@
 
      int acc;
 
+     /* infinite loop */
      do {
 
          system ("clear");
