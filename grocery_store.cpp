@@ -31,7 +31,7 @@
      int acc;
 
      /* infinite loop */
-     do {
+     do { // Menu driven program
 
          system ("clear");
 
