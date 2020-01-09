@@ -77,6 +77,7 @@
 
          std::cout << "\n\n\n\t\t\t\t Welcome to ABC grocery store : customer";
          std::cout << "\n\n\t\t Menu";
+         /* options */
          std::cout << "\n\n\t 1. Display item list";
          std::cout << "\n\t 2. Add item to cart";
          std::cout << "\n\t 3. Delete item from cart";
